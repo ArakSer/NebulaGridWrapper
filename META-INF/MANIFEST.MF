@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nebula Grid Wrapper
+Bundle-SymbolicName: org.eclipse.nebula.widgets.grid.wrapper
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.core.runtime,
+ org.eclipse.nebula.widgets.grid,
+ org.eclipse.nebula.widgets.formattedtext
+Export-Package: org.eclipse.nebula.widgets.grid.wrapper,
+ org.eclipse.nebula.widgets.grid.wrapper.cells,
+ org.eclipse.nebula.widgets.grid.wrapper.columns,
+ org.eclipse.nebula.widgets.grid.wrapper.editors,
+ org.eclipse.nebula.widgets.grid.wrapper.listeners,
+ org.eclipse.nebula.widgets.grid.wrapper.nodes
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
